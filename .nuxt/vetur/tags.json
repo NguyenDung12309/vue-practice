@@ -1,0 +1,65 @@
+{
+  "ButtonLink": {
+    "description": "Auto imported from components/button/buttonLink.vue"
+  },
+  "ButtonStepBack": {
+    "description": "Auto imported from components/button/buttonStepBack.vue"
+  },
+  "ButtonStepNext": {
+    "description": "Auto imported from components/button/buttonStepNext.vue"
+  },
+  "ButtonSubmit": {
+    "description": "Auto imported from components/button/buttonSubmit.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/footer/footer.vue"
+  },
+  "BookingForm": {
+    "description": "Auto imported from components/form/bookingForm.vue"
+  },
+  "BudgeForm": {
+    "description": "Auto imported from components/form/budgeForm.vue"
+  },
+  "ContactForm": {
+    "description": "Auto imported from components/form/contactForm.vue"
+  },
+  "EmailForm": {
+    "description": "Auto imported from components/form/emailForm.vue"
+  },
+  "ServiceForm": {
+    "description": "Auto imported from components/form/serviceForm.vue"
+  },
+  "SuccessForm": {
+    "description": "Auto imported from components/form/successForm.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/header/Header.vue"
+  },
+  "InputRadio": {
+    "description": "Auto imported from components/input/inputRadio.vue"
+  },
+  "InputText": {
+    "description": "Auto imported from components/input/inputText.vue"
+  },
+  "MessageError": {
+    "description": "Auto imported from components/input/messageError.vue"
+  },
+  "LabelText": {
+    "description": "Auto imported from components/label/labelText.vue"
+  },
+  "LogoLink": {
+    "description": "Auto imported from components/logo/LogoLink.vue"
+  },
+  "Stepper": {
+    "description": "Auto imported from components/step/Stepper.vue"
+  },
+  "TextNormal": {
+    "description": "Auto imported from components/text/textNormal.vue"
+  },
+  "TextSpecial": {
+    "description": "Auto imported from components/text/textSpecial.vue"
+  },
+  "Title": {
+    "description": "Auto imported from components/title/Title.vue"
+  }
+}

@@ -10,7 +10,8 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import { HeadingType } from "~/common/type";
-interface props {
+
+interface Props {
   level: HeadingType;
 }
 
@@ -32,7 +33,7 @@ export default defineComponent({
       required: true,
     },
   },
-  data(): props {
+  data(): Props {
     return {
       level: {
         h1: "  md:leading-[46px] md:text-[34px] leading-[30px] text-[28px]  ",

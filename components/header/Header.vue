@@ -1,8 +1,8 @@
 <template>
   <header class="container">
     <nav class="h-[126px] flex items-center justify-between">
-      <LogoLink imageStyle="" />
-      <ButtonLink title="Clone now" classStyle="ml-6 sm:ml-0" />
+      <LogoLink />
+      <ButtonSubmit title="Clone now" classStyle="ml-6 sm:ml-0" />
     </nav>
   </header>
 </template>

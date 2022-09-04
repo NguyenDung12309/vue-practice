@@ -1,12 +1,22 @@
 <template>
   <v-btn
     type="submit"
-    class="shadow-sm border-solid bg-primary hover:bg-primary-bold border-primary rounded-full h-auto"
+    class="
+      shadow-sm
+      border-solid
+      bg-primary
+      hover:bg-primary-bold
+      border-primary
+      rounded-full
+      h-auto
+    "
     :class="[classStyle, getSizeProps]"
   >
-    <span class="text-white normal-case" :class="getTextSizeProps">{{
-      title
-    }}</span>
+    <span
+      class="text-white normal-case inline-block"
+      :class="getTextSizeProps"
+      >{{ title }}</span
+    >
   </v-btn>
 </template>
 
@@ -14,7 +24,7 @@
 import { defineComponent } from "vue";
 import { TypeGroup } from "~/common/type";
 
-interface props {
+interface Props {
   options: Omit<TypeGroup, "level">;
 }
 
@@ -46,7 +56,7 @@ export default defineComponent({
     },
   },
 
-  data(): props {
+  data(): Props {
     return {
       options: {
         size: {

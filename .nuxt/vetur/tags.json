@@ -1,7 +1,4 @@
 {
-  "ButtonLink": {
-    "description": "Auto imported from components/button/buttonLink.vue"
-  },
   "ButtonStepBack": {
     "description": "Auto imported from components/button/buttonStepBack.vue"
   },
@@ -10,9 +7,6 @@
   },
   "ButtonSubmit": {
     "description": "Auto imported from components/button/buttonSubmit.vue"
-  },
-  "Footer": {
-    "description": "Auto imported from components/footer/footer.vue"
   },
   "BookingForm": {
     "description": "Auto imported from components/form/bookingForm.vue"
@@ -32,6 +26,9 @@
   "SuccessForm": {
     "description": "Auto imported from components/form/successForm.vue"
   },
+  "Footer": {
+    "description": "Auto imported from components/footer/footer.vue"
+  },
   "Header": {
     "description": "Auto imported from components/header/Header.vue"
   },
@@ -40,9 +37,6 @@
   },
   "InputText": {
     "description": "Auto imported from components/input/inputText.vue"
-  },
-  "MessageError": {
-    "description": "Auto imported from components/input/messageError.vue"
   },
   "LabelText": {
     "description": "Auto imported from components/label/labelText.vue"
@@ -55,9 +49,6 @@
   },
   "TextNormal": {
     "description": "Auto imported from components/text/textNormal.vue"
-  },
-  "TextSpecial": {
-    "description": "Auto imported from components/text/textSpecial.vue"
   },
   "Title": {
     "description": "Auto imported from components/title/Title.vue"

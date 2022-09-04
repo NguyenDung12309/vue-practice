@@ -13,12 +13,7 @@
     :rules="rules"
   >
     <template v-slot:append v-if="icon">
-      <img
-        width="24"
-        height="24"
-        :src="getImgUrl(icon)"
-        class="transitionFocus"
-      />
+      <img :src="getImgUrl(icon)" class="transitionFocus" :alt="icon" />
     </template>
     <template v-slot:append v-else>
       <slot />

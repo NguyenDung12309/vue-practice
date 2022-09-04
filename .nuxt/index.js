@@ -12,9 +12,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_b13298bc from 'nuxt_plugin_plugin_b13298bc' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_plugin_1d67f8e8 from 'nuxt_plugin_plugin_1d67f8e8' // Source: ./vuetify/plugin.js (mode: 'all')
-import nuxt_plugin_elementui_a6a1b20a from 'nuxt_plugin_elementui_a6a1b20a' // Source: ../plugins/element-ui (mode: 'all')
+import nuxt_plugin_plugin_22048960 from 'nuxt_plugin_plugin_22048960' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_674442a4 from 'nuxt_plugin_plugin_674442a4' // Source: .\\vuetify\\plugin.js (mode: 'all')
+import nuxt_plugin_elementui_a6a1b20a from 'nuxt_plugin_elementui_a6a1b20a' // Source: ..\\plugins\\element-ui (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -178,12 +178,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_b13298bc === 'function') {
-    await nuxt_plugin_plugin_b13298bc(app.context, inject)
+  if (typeof nuxt_plugin_plugin_22048960 === 'function') {
+    await nuxt_plugin_plugin_22048960(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_1d67f8e8 === 'function') {
-    await nuxt_plugin_plugin_1d67f8e8(app.context, inject)
+  if (typeof nuxt_plugin_plugin_674442a4 === 'function') {
+    await nuxt_plugin_plugin_674442a4(app.context, inject)
   }
 
   if (typeof nuxt_plugin_elementui_a6a1b20a === 'function') {

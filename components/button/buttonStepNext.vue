@@ -1,6 +1,14 @@
 <template>
   <v-btn
-    class="shadow-sm border-solid bg-primary hover:bg-primary-bold border-primary rounded-full h-auto"
+    class="
+      shadow-sm
+      border-solid
+      bg-primary
+      hover:bg-primary-bold
+      border-primary
+      rounded-full
+      h-auto
+    "
     :class="[classStyle, getSizeProps]"
     @click="action()"
   >
@@ -14,7 +22,7 @@
 import { defineComponent } from "vue";
 import { TypeGroup } from "~/common/type";
 
-interface props {
+interface Props {
   options: Omit<TypeGroup, "level">;
 }
 
@@ -36,7 +44,7 @@ export default defineComponent({
     },
   },
 
-  data(): props {
+  data(): Props {
     return {
       options: {
         size: {
@@ -45,7 +53,7 @@ export default defineComponent({
         },
         textSize: {
           medium: "lg:leading-5 lg:text-lg font-bold leading-3 text-md",
-          small: " leading-[18px] text-base",
+          small: " leading-[18px] text-base font-medium",
         },
       },
     };
